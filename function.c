@@ -2,6 +2,6 @@
 #include <stdlib.h>
 #include "function.h"
 int function(char * name){
-printf("hello %s !\n",name) ;
+printf("helloo %s !\n",name) ;
 return 0 ;
 }
