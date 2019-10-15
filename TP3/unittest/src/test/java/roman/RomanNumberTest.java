@@ -88,7 +88,7 @@ public class RomanNumberTest
     RomanNumber.valueOf(0);
   }
 
-  // Pas fini
+  //
   @Test
   public void testOutputRoman() 
   {
@@ -98,7 +98,7 @@ public class RomanNumberTest
     }
   }
 
-  // Reste fini
+  //
   @Test(expected = IllegalArgumentException.class)
   public void testNeg() 
   {
