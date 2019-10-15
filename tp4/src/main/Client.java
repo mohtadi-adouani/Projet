@@ -1,8 +1,10 @@
+import java.util.ArrayList;
 public class Client{
     private String nom;
     private String paiement;
     private String contact;
     private String reference;
+    public ArrayList<Reservation> reservations = new ArrayList<Reservation>();
     
     Client(String n,String p,String c,String r){
         this.nom = n;
@@ -10,6 +12,10 @@ public class Client{
         this.contact = c;
         this.reference =r;
     }
+     //Methodes
+	public void addReservation(Reservation r){
+		this.reservations.add(r);
+	}
     //Getteurs
     public String getnom(){
         return this.nom;

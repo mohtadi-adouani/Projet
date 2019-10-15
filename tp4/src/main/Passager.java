@@ -1,12 +1,19 @@
+import java.util.ArrayList;
 public class Passager{
 
     private String nom;
     private String contact;
+    public ArrayList<Reservation> reservations = new ArrayList<Reservation>();
 
     Passager(String n,String c){
         this.nom = n ;
         this.contact = c ;
     }
+
+     //Methodes
+	public void addReservation(Reservation r){
+		this.reservations.add(r);
+	}
     //Getteurs
     public String getnom(){
         return this.nom;
