@@ -1,6 +1,6 @@
-<project name="Project" default="compile" basedir=".">
+<project name="Projet" default="compile" basedir=".">
 	<description> builf of tdVol </description>
-	<property name="src" location="src"/>
+	<property name="src" location="src/main"/>
 	<property name="build" location="build"/>
 	<property name="dist" location="dist"/>
 
