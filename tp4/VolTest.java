@@ -45,20 +45,6 @@ public class VolTest
      RomanNumber.valueOf(-1);
   }
 
-  // 
-  @Test(expected = IllegalArgumentException.class)
-  public void testFloat() 
-  {
-     RomanNumber.valueOf(3.6);
-  }
-
-  // 
-  @Test(expected = IllegalArgumentException.class)
-  public void testSup() 
-  {
-     RomanNumber.valueOf(4000);
-  }
-
    // 
   //@Test(expected = IllegalArgumentException.class)
   //public void testRoman() 
@@ -71,20 +57,6 @@ public class VolTest
   public void testRep() 
   {
      RomanNumber.valueOf("XXXX");
-  }
-
-  // 
-  @Test(expected = IllegalArgumentException.class)
-  public void testRepPaire() 
-  {
-     RomanNumber.valueOf("VV");
-  }
-
-  // 
-  @Test(expected = IllegalArgumentException.class)
-  public void testAsc() 
-  {
-     RomanNumber.valueOf("XCX");
   }
 
 }
